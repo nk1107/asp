@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div>
       
-      <Button>sign-in</Button>
-      <SignIn></SignIn>
+      <SignIn/>
+      
     </div>
   );
 }
