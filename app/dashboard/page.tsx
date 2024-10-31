@@ -9,7 +9,7 @@ export default async function Dashboard() {
   if (!session) return <div>Not authenticated</div>;
 
   return (
-    <BackgroundBeamsWithCollision>
+    <BackgroundBeamsWithCollision className="h-screen">
       <div className=" flex flex-col min-h-screen bg-cover bg-center text-white">
         {/* Menubar */}
         <Menubar className="w-[50%] mx-auto my-10 bg-black rounded-lg text-white flex items-center">
@@ -21,7 +21,7 @@ export default async function Dashboard() {
           />
           <MenubarMenu>
             <MenubarTrigger className="bg-black">
-              <Link href="/about" className="">
+              <Link href="/about" className="hover:text-gray-400">
                 Home
               </Link>{" "}
               {/* Wrap in Link */}
@@ -29,21 +29,15 @@ export default async function Dashboard() {
           </MenubarMenu>
           <MenubarMenu>
             <MenubarTrigger className="bg-black">
-              <Link href="/about" className="">
+              <Link href="/about" className="hover:text-gray-400">
                 About
               </Link>
             </MenubarTrigger>
           </MenubarMenu>
+          
           <MenubarMenu>
             <MenubarTrigger className="bg-black">
-              <Link href="/about" className="">
-                Service
-              </Link>
-            </MenubarTrigger>
-          </MenubarMenu>
-          <MenubarMenu>
-            <MenubarTrigger className="bg-black">
-              <Link href="/about" className="">
+              <Link href="/about" className="hover:text-gray-400">
                 Contact
               </Link>
             </MenubarTrigger>
