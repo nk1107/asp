@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useRef, useState, useEffect } from "react";
@@ -70,8 +70,7 @@ export const BackgroundBeamsWithCollision = ({
     <div
       ref={parentRef}
       className={cn(
-        "h-96 md:h-screen relative flex bg-gradient-to-b from-[#260101] to-black bg-opacity-70 items-center w-full justify-center overflow-hidden",
-        // h-screen if you want bigger
+        "h-96 md:h-screen relative flex bg-gradient-to-b from-[#fef3c7] to-[#fcd34d] bg-opacity-90 items-center w-full justify-center overflow-hidden",
         className
       )}
     >
@@ -87,7 +86,7 @@ export const BackgroundBeamsWithCollision = ({
       {children}
       <div
         ref={containerRef}
-        className="absolute bottom-0  w-full inset-x-0 pointer-events-none"
+        className="absolute bottom-0 w-full inset-x-0 pointer-events-none"
         style={{
           boxShadow:
             "0 0 24px rgba(34, 42, 53, 0.06), 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(34, 42, 53, 0.04), 0 0 4px rgba(34, 42, 53, 0.08), 0 16px 68px rgba(47, 48, 55, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1) inset",
@@ -200,7 +199,7 @@ const CollisionMechanism = React.forwardRef<
           repeatDelay: beamOptions.repeatDelay || 0,
         }}
         className={cn(
-          "absolute left-0 top-20 m-auto h-14 w-px rounded-full bg-gradient-to-t from-[#260101] via-white to-transparent",
+          "absolute left-0 top-20 m-auto h-14 w-px rounded-full bg-gradient-to-t from-[#1f1f1f] via-[#4a4a4a] to-transparent",
           beamOptions.className
         )}
       />
@@ -239,7 +238,7 @@ const Explosion = ({ ...props }: React.HTMLProps<HTMLDivElement>) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
-        className="absolute -inset-x-10 top-0 m-auto h-2 w-10 rounded-full bg-gradient-to-r  from-[#260101] via-white to-transparent blur-sm"
+        className="absolute -inset-x-10 top-0 m-auto h-2 w-10 rounded-full bg-gradient-to-r from-[#f0e9e9] via-[#4a4a4a] to-transparent blur-sm"
       ></motion.div>
       {spans.map((span) => (
         <motion.span
@@ -251,7 +250,7 @@ const Explosion = ({ ...props }: React.HTMLProps<HTMLDivElement>) => {
             opacity: 0,
           }}
           transition={{ duration: Math.random() * 1.5 + 0.5, ease: "easeOut" }}
-          className="absolute h-1 w-1 rounded-full bg-gradient-to-b from-[#260101] via-white to-transparent"
+          className="absolute h-1 w-1 rounded-full bg-gradient-to-b from-[#1f1f1f] via-[#4a4a4a] to-transparent"
         />
       ))}
     </div>
