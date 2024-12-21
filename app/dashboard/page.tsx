@@ -4,15 +4,16 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 
 export default async function Dashboard() {
   const session = await auth();
-  if (!session) return <div>Not authenticated</div>;
+  // if (!session) return <div>Not authenticated</div>;
 
   return (
     <BackgroundBeamsWithCollision className="h-screen">
-      <div className="flex flex-col min-h-screen bg-gradient-to-b from-[#fef3c7] to-[#fcd34d] bg-opacity-90
-  bg-cover bg-center text-black">
+      <div
+        className="flex flex-col min-h-screen bg-gradient-to-b from-[#fef3c7] to-[#fcd34d] bg-opacity-90
+  bg-cover bg-center text-black"
+      >
         {/* Menubar */}
-        
-        <Menu/>
+        <Menu />
         {/* Hero Section */}
         <div className="flex flex-col items-center justify-center flex-grow pt-14 pb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black animate-fade-in-up">
@@ -25,11 +26,17 @@ export default async function Dashboard() {
             Learn More
           </button>
         </div>
-
         {/* Welcome Message - Fixed at Bottom */}
-        <p className="absolute bottom-0 left-0 right-0 text-gray-600 text-sm text-center py-4">
-          Hi, {session.user?.name}! Let's make the world a better place.🌏
-        </p>
+
+        {session ? (
+          <p className="absolute bottom-0 left-0 right-0 text-gray-600 text-sm text-center py-4">
+            Hi, {session.user?.name}! Let's make the world a better place. 🌏
+          </p>
+        ) : (
+          <p className="absolute bottom-0 left-0 right-0 text-gray-600 text-sm text-center py-4">
+            Welcome, guest! Sign in to start your journey. 🚀
+          </p>
+        )}
       </div>
     </BackgroundBeamsWithCollision>
   );
