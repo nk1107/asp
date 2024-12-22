@@ -42,7 +42,7 @@ const MenubarTrigger = React.forwardRef<
   <MenubarPrimitive.Trigger
     ref={ref}
     className={cn(
-      "flex cursor-pointer select-none items-center rounded-sm px-3 py-1 text-sm font-medium text-white outline-none focus:bg-gray-700 focus:text-white", // Match text color with a lighter focus state
+      "flex cursor-pointer select-none items-center rounded-sm px-3 py-1  font-medium text-white outline-none focus:bg-gray-700 focus:text-white", // Match text color with a lighter focus state
       className
     )}
     {...props}

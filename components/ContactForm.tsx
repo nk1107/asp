@@ -1,8 +1,9 @@
-// components/AppointmentForm.tsx
-'use client'
+"use client"
 import React, { useState } from 'react';
+import { toast } from 'sonner';
+import { Button } from './ui/button';
 
-const AppointmentForm: React.FC = () => {
+const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -29,7 +30,7 @@ const AppointmentForm: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-  
+
     const newErrors = {
       name: formData.name ? '' : 'Name is required',
       email: formData.email ? '' : 'Email is required',
@@ -37,19 +38,28 @@ const AppointmentForm: React.FC = () => {
       message: formData.message ? '' : 'Message is required',
     };
     setErrors(newErrors);
-  
+
     if (!Object.values(newErrors).some((error) => error)) {
       try {
+        // Convert form data to URL-encoded format
+        const urlEncodedData = new URLSearchParams();
+        urlEncodedData.append('name', formData.name);
+        urlEncodedData.append('email', formData.email);
+        urlEncodedData.append('phone', formData.phone);
+        urlEncodedData.append('message', formData.message);
+
         const response = await fetch('/api/sendEmail', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(formData),
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: urlEncodedData.toString(), // Send URL-encoded data
         });
-        
-        
+
         const result = await response.json();
         if (response.ok) {
-          alert(result.message);
+          // alert(result.message);
+          toast("Email sent successfully")
           setFormData({ name: '', email: '', phone: '', message: '' });
         } else {
           alert(result.message);
@@ -60,11 +70,10 @@ const AppointmentForm: React.FC = () => {
       }
     }
   };
-  
 
   return (
     <div className="px-20 py-16 max-w-xl mx-auto mt-10 bg-black shadow-lg rounded-lg overflow-hidden">
-      <div className="text-2xl py-4 px-6 bg-white text-black text-center font-bold uppercase">
+      <div className="text-3xl py-4 px-6 text-white text-center font-bold ">
         Send Us A Message!
       </div>
       <form className="py-4 px-6" onSubmit={handleSubmit}>
@@ -129,16 +138,16 @@ const AppointmentForm: React.FC = () => {
         </div>
 
         <div className="flex items-center justify-center mb-4">
-          <button
+          <Button
             className="bg-white text-black py-2 px-4 rounded hover:bg-yellow-400 focus:outline-none focus:shadow-outline"
             type="submit"
           >
             Send Mail
-          </button>
+          </Button>
         </div>
       </form>
     </div>
   );
 };
 
-export default AppointmentForm;
+export default ContactForm;

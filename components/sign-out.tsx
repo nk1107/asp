@@ -1,16 +1,23 @@
+import { signOut } from "@/auth";
+import { Button } from "./ui/button";
+import { cn } from "@/lib/utils";
 
-import { signOut } from "@/auth"
-import { Button } from "./ui/button"
- 
-export function SignOut() {
+interface SignOutProps {
+  className?: string; // Define the type for the className prop
+}
+
+export function SignOut({ className }: SignOutProps) {
   return (
     <form
       action={async () => {
-        "use server"
-        await signOut({redirectTo:"/"})
+        "use server";
+        await signOut({ redirectTo: "/" });
       }}
+      className={cn("inline-block", className)} // Merge dynamic className
     >
-      <Button type="submit">Sign Out</Button>
+      <Button type="submit" className={cn(className)}>
+        Sign Out
+      </Button>
     </form>
-  )
+  );
 }
