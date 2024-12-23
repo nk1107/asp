@@ -1,4 +1,4 @@
-"use client"; // Ensure this is at the top of your file
+ // Ensure this is at the top of your file
 import Image from "next/image";
 import React from "react";
 import { auth } from "@/auth";
