@@ -33,9 +33,8 @@ const products = [
 export default function ThreeDCardDemo() {
   return (
     <>
-      <div className="flex flex-col  bg-gradient-to-b from-[#fef3c7] to-[#fcd34d] bg-opacity-90
+      <div className="flex flex-col   bg-opacity-90
   bg-cover bg-center text-black">
-        <Menu />
         <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
           {products.map((product) => (
             <CardContainer

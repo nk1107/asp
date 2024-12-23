@@ -9,13 +9,13 @@ export default async function Dashboard() {
   return (
     <BackgroundBeamsWithCollision className="h-screen">
       <div
-        className="flex flex-col min-h-screen bg-gradient-to-b from-[#fef3c7] to-[#fcd34d] bg-opacity-90
+        className="flex flex-col min-h-screen 
   bg-cover bg-center text-black"
       >
         {/* Menubar */}
-        <Menu />
+        
         {/* Hero Section */}
-        <div className="flex flex-col items-center justify-center flex-grow pt-14 pb-16">
+        <div className="flex flex-col items-center justify-center flex-grow">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black animate-fade-in-up">
             Welcome to Aviral Solar Power
           </h1>

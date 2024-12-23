@@ -9,9 +9,9 @@ export default async function Menu() {
   // if (!session) return <div>Not authenticated</div>;
 
   return (
-    <div className="flex justify-center py-2">
+    <div className="flex justify-center rounded-lg w-full h-full">
       {/* Navbar Container */}
-      <div className="flex items-center justify-between w-[80%] max-w-5xl bg-black text-white rounded-2xl px-6 py-2 mt-2">
+      <div className="flex items-center rounded-lg w-full h-full justify-between bg-black text-white px-6 py-2">
         {/* Logo */}
         <Link href="/">
           <div>
@@ -24,7 +24,7 @@ export default async function Menu() {
         </Link>
 
         {/* Menu */}
-        <Menubar className="h-10 rounded-lg text-white items-center justify-center text-lg">
+        <Menubar className=" rounded-lg text-white items-center gap-7 justify-center text-lg">
           <MenubarMenu>
             <MenubarTrigger>
               <Link href="/dashboard" className="hover:text-gray-400">

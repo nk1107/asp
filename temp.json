@@ -1,0 +1,537 @@
+[
+    [
+        {
+            "id": 2016250,
+            "syllabusCourse": {
+                "id": 2001741,
+                "maxMark": 100.0,
+                "internalMarks": 0.0,
+                "internalPassMarks": 0.0,
+                "externalMarks": 0.0,
+                "externalPassMarks": 0.0,
+                "passMark": 0.0,
+                "credit": 4.0,
+                "durationInHours": 0.0,
+                "courseClassType": {
+                    "id": 315195403,
+                    "credits": 0.0,
+                    "course": {
+                        "id": 315162635,
+                        "code": "BTP499",
+                        "name": "BTech Project",
+                        "credit": 0.0,
+                        "tutorialHours": 0.0,
+                        "labHours": 0.0,
+                        "classHours": 0.0,
+                        "selfDirectedHours": 0.0,
+                        "totLearningHours": 0.0,
+                        "sequenceOrder": 0,
+                        "coverPage": false
+                    },
+                    "classType": {
+                        "code": "Thesis",
+                        "name": "Thesis"
+                    }
+                },
+                "courseType": {
+                    "name": "Open Elective",
+                    "isMandatory": 0
+                },
+                "feedBackOnline": false,
+                "classHours": 0.0,
+                "tutorialHours": 0.0,
+                "labHours": 0.0,
+                "workHours": 0.0,
+                "concentration": 0.0,
+                "capacity": 0
+            },
+            "admission": {
+                "id": 406225114,
+                "entranceScore": 0.0,
+                "entranceRank": 0,
+                "totalMark": 0.0,
+                "cgpa": 0.0,
+                "feeAmount": 0.0,
+                "rollNo": 0,
+                "student": {
+                    "id": 406192326,
+                    "pinNo": 0,
+                    "parentAnnualIncome": 0.0,
+                    "age": 0,
+                    "workExperince": 0
+                },
+                "studentCurrentTerm": 0.0
+            },
+            "level": {
+                "id": 2000090,
+                "syllabusFreeze": false,
+                "startDate": "Aug 9, 2024, 12:00:00 AM",
+                "endDate": "Dec 25, 2024, 11:59:59 PM",
+                "resultApplicable": false,
+                "resultDeclared": false
+            },
+            "courseType": 0,
+            "feedBack": 0,
+            "forcedGrade": {
+                "id": 16908289,
+                "weightage": 0.0,
+                "hierarchyId": 0,
+                "fromPR": 0.0,
+                "toPR": 0.0,
+                "fromMR": 0,
+                "toMR": 0
+            },
+            "totalMark": 0.0,
+            "internalMark": 0.0,
+            "externalMark": 0.0,
+            "passAudit": false,
+            "thesis": "Workload-aware in network crypto framework",
+            "otherStatus": 0,
+            "modifiedGroup": "campus"
+        },
+        [],
+        true
+    ],
+    [
+        {
+            "id": 2014377,
+            "syllabusCourse": {
+                "id": 2006677,
+                "maxMark": 100.0,
+                "internalMarks": 0.0,
+                "internalPassMarks": 0.0,
+                "externalMarks": 0.0,
+                "externalPassMarks": 0.0,
+                "passMark": 0.0,
+                "credit": 4.0,
+                "durationInHours": 0.0,
+                "courseClassType": {
+                    "id": 2000008,
+                    "credits": 0.0,
+                    "course": {
+                        "id": 2000008,
+                        "code": "ECE313",
+                        "name": "VLSI Design Flow",
+                        "credit": 0.0,
+                        "tutorialHours": 0.0,
+                        "labHours": 0.0,
+                        "classHours": 0.0,
+                        "selfDirectedHours": 0.0,
+                        "totLearningHours": 0.0,
+                        "sequenceOrder": 0,
+                        "coverPage": false
+                    },
+                    "classType": {
+                        "code": "Lect",
+                        "name": "Lecture"
+                    }
+                },
+                "courseType": {
+                    "name": "Department Elective",
+                    "isMandatory": 0
+                },
+                "feedBackOnline": false,
+                "classHours": 0.0,
+                "tutorialHours": 0.0,
+                "labHours": 0.0,
+                "workHours": 0.0,
+                "concentration": 0.0,
+                "capacity": 0
+            },
+            "admission": {
+                "id": 406225114,
+                "entranceScore": 0.0,
+                "entranceRank": 0,
+                "totalMark": 0.0,
+                "cgpa": 0.0,
+                "feeAmount": 0.0,
+                "rollNo": 0,
+                "student": {
+                    "id": 406192326,
+                    "pinNo": 0,
+                    "parentAnnualIncome": 0.0,
+                    "age": 0,
+                    "workExperince": 0
+                },
+                "studentCurrentTerm": 0.0
+            },
+            "level": {
+                "id": 2000090,
+                "syllabusFreeze": false,
+                "startDate": "Aug 9, 2024, 12:00:00 AM",
+                "endDate": "Dec 25, 2024, 11:59:59 PM",
+                "resultApplicable": false,
+                "resultDeclared": false
+            },
+            "courseType": 0,
+            "feedBack": 2,
+            "forcedGrade": {
+                "id": 16908290,
+                "weightage": 0.0,
+                "hierarchyId": 0,
+                "fromPR": 0.0,
+                "toPR": 0.0,
+                "fromMR": 0,
+                "toMR": 0
+            },
+            "totalMark": 0.0,
+            "internalMark": 0.0,
+            "externalMark": 0.0,
+            "passAudit": false,
+            "otherStatus": 0,
+            "modifiedGroup": "campus"
+        },
+        [],
+        false
+    ],
+    [
+        {
+            "id": 2001979,
+            "syllabusCourse": {
+                "id": 2006684,
+                "maxMark": 100.0,
+                "internalMarks": 0.0,
+                "internalPassMarks": 0.0,
+                "externalMarks": 0.0,
+                "externalPassMarks": 0.0,
+                "passMark": 0.0,
+                "credit": 4.0,
+                "durationInHours": 0.0,
+                "courseClassType": {
+                    "id": 80314373,
+                    "credits": 0.0,
+                    "course": {
+                        "id": 80281605,
+                        "code": "ECE511",
+                        "name": "Computer Architecture",
+                        "credit": 0.0,
+                        "tutorialHours": 0.0,
+                        "labHours": 0.0,
+                        "classHours": 0.0,
+                        "selfDirectedHours": 0.0,
+                        "totLearningHours": 0.0,
+                        "sequenceOrder": 0,
+                        "coverPage": false
+                    },
+                    "classType": {
+                        "code": "Lect-Lab",
+                        "name": "Lecture-Lab"
+                    }
+                },
+                "courseType": {
+                    "name": "Department Elective",
+                    "isMandatory": 0
+                },
+                "feedBackOnline": false,
+                "classHours": 0.0,
+                "tutorialHours": 0.0,
+                "labHours": 0.0,
+                "workHours": 0.0,
+                "concentration": 0.0,
+                "capacity": 0
+            },
+            "admission": {
+                "id": 406225114,
+                "entranceScore": 0.0,
+                "entranceRank": 0,
+                "totalMark": 0.0,
+                "cgpa": 0.0,
+                "feeAmount": 0.0,
+                "rollNo": 0,
+                "student": {
+                    "id": 406192326,
+                    "pinNo": 0,
+                    "parentAnnualIncome": 0.0,
+                    "age": 0,
+                    "workExperince": 0
+                },
+                "studentCurrentTerm": 0.0
+            },
+            "level": {
+                "id": 2000090,
+                "syllabusFreeze": false,
+                "startDate": "Aug 9, 2024, 12:00:00 AM",
+                "endDate": "Dec 25, 2024, 11:59:59 PM",
+                "resultApplicable": false,
+                "resultDeclared": false
+            },
+            "courseType": 0,
+            "feedBack": 0,
+            "totalMark": 0.0,
+            "internalMark": 0.0,
+            "externalMark": 0.0,
+            "passAudit": false,
+            "otherStatus": 0,
+            "modifiedGroup": "campus"
+        },
+        [],
+        false
+    ],
+    [
+        {
+            "id": 2010875,
+            "syllabusCourse": {
+                "id": 2006689,
+                "maxMark": 100.0,
+                "internalMarks": 0.0,
+                "internalPassMarks": 0.0,
+                "externalMarks": 0.0,
+                "externalPassMarks": 0.0,
+                "passMark": 0.0,
+                "credit": 4.0,
+                "durationInHours": 0.0,
+                "courseClassType": {
+                    "id": 412385282,
+                    "credits": 0.0,
+                    "course": {
+                        "id": 412352514,
+                        "code": "ECE525",
+                        "name": "Quantum Mechanics",
+                        "credit": 0.0,
+                        "tutorialHours": 0.0,
+                        "labHours": 0.0,
+                        "classHours": 0.0,
+                        "selfDirectedHours": 0.0,
+                        "totLearningHours": 0.0,
+                        "sequenceOrder": 0,
+                        "coverPage": false
+                    },
+                    "classType": {
+                        "code": "Lect",
+                        "name": "Lecture"
+                    }
+                },
+                "courseType": {
+                    "name": "Department Elective",
+                    "isMandatory": 0
+                },
+                "feedBackOnline": false,
+                "classHours": 0.0,
+                "tutorialHours": 0.0,
+                "labHours": 0.0,
+                "workHours": 0.0,
+                "concentration": 0.0,
+                "capacity": 0
+            },
+            "admission": {
+                "id": 406225114,
+                "entranceScore": 0.0,
+                "entranceRank": 0,
+                "totalMark": 0.0,
+                "cgpa": 0.0,
+                "feeAmount": 0.0,
+                "rollNo": 0,
+                "student": {
+                    "id": 406192326,
+                    "pinNo": 0,
+                    "parentAnnualIncome": 0.0,
+                    "age": 0,
+                    "workExperince": 0
+                },
+                "studentCurrentTerm": 0.0
+            },
+            "level": {
+                "id": 2000090,
+                "syllabusFreeze": false,
+                "startDate": "Aug 9, 2024, 12:00:00 AM",
+                "endDate": "Dec 25, 2024, 11:59:59 PM",
+                "resultApplicable": false,
+                "resultDeclared": false
+            },
+            "courseType": 0,
+            "feedBack": 2,
+            "forcedGrade": {
+                "id": 16908291,
+                "weightage": 0.0,
+                "hierarchyId": 0,
+                "fromPR": 0.0,
+                "toPR": 0.0,
+                "fromMR": 0,
+                "toMR": 0
+            },
+            "totalMark": 0.0,
+            "internalMark": 0.0,
+            "externalMark": 0.0,
+            "passAudit": false,
+            "otherStatus": 0,
+            "modifiedGroup": "campus"
+        },
+        [],
+        false
+    ],
+    [
+        {
+            "id": 2015413,
+            "syllabusCourse": {
+                "id": 2007855,
+                "maxMark": 100.0,
+                "internalMarks": 0.0,
+                "internalPassMarks": 0.0,
+                "externalMarks": 0.0,
+                "externalPassMarks": 0.0,
+                "passMark": 0.0,
+                "credit": 4.0,
+                "durationInHours": 0.0,
+                "courseClassType": {
+                    "id": 87851009,
+                    "credits": 0.0,
+                    "course": {
+                        "id": 87818241,
+                        "code": "ECE999",
+                        "name": "Distance Course in ECE",
+                        "credit": 0.0,
+                        "tutorialHours": 0.0,
+                        "labHours": 0.0,
+                        "classHours": 0.0,
+                        "selfDirectedHours": 0.0,
+                        "totLearningHours": 0.0,
+                        "sequenceOrder": 0,
+                        "coverPage": false
+                    },
+                    "classType": {
+                        "code": "Outside Institute",
+                        "name": "Outside Institute"
+                    }
+                },
+                "courseType": {
+                    "name": "Department Elective",
+                    "isMandatory": 0
+                },
+                "feedBackOnline": false,
+                "classHours": 0.0,
+                "tutorialHours": 0.0,
+                "labHours": 0.0,
+                "workHours": 0.0,
+                "concentration": 0.0,
+                "capacity": 0
+            },
+            "admission": {
+                "id": 406225114,
+                "entranceScore": 0.0,
+                "entranceRank": 0,
+                "totalMark": 0.0,
+                "cgpa": 0.0,
+                "feeAmount": 0.0,
+                "rollNo": 0,
+                "student": {
+                    "id": 406192326,
+                    "pinNo": 0,
+                    "parentAnnualIncome": 0.0,
+                    "age": 0,
+                    "workExperince": 0
+                },
+                "studentCurrentTerm": 0.0
+            },
+            "level": {
+                "id": 2000090,
+                "syllabusFreeze": false,
+                "startDate": "Aug 9, 2024, 12:00:00 AM",
+                "endDate": "Dec 25, 2024, 11:59:59 PM",
+                "resultApplicable": false,
+                "resultDeclared": false
+            },
+            "courseType": 0,
+            "feedBack": 0,
+            "totalMark": 0.0,
+            "internalMark": 0.0,
+            "externalMark": 0.0,
+            "passAudit": false,
+            "otherStatus": 0,
+            "modifiedGroup": "campus"
+        },
+        [],
+        false
+    ],
+    [
+        {
+            "id": 2014088,
+            "syllabusCourse": {
+                "id": 2005347,
+                "maxMark": 100.0,
+                "internalMarks": 0.0,
+                "internalPassMarks": 0.0,
+                "externalMarks": 0.0,
+                "externalPassMarks": 0.0,
+                "passMark": 0.0,
+                "credit": 4.0,
+                "durationInHours": 0.0,
+                "courseClassType": {
+                    "id": 298582020,
+                    "credits": 0.0,
+                    "course": {
+                        "id": 298549252,
+                        "code": "ECO331",
+                        "name": "Foundations of Finance",
+                        "credit": 0.0,
+                        "tutorialHours": 0.0,
+                        "labHours": 0.0,
+                        "classHours": 0.0,
+                        "selfDirectedHours": 0.0,
+                        "totLearningHours": 0.0,
+                        "sequenceOrder": 0,
+                        "coverPage": false
+                    },
+                    "classType": {
+                        "code": "Lect",
+                        "name": "Lecture"
+                    }
+                },
+                "courseType": {
+                    "name": "Open Elective",
+                    "isMandatory": 0
+                },
+                "feedBackOnline": false,
+                "classHours": 0.0,
+                "tutorialHours": 0.0,
+                "labHours": 0.0,
+                "workHours": 0.0,
+                "concentration": 0.0,
+                "capacity": 0
+            },
+            "admission": {
+                "id": 406225114,
+                "entranceScore": 0.0,
+                "entranceRank": 0,
+                "totalMark": 0.0,
+                "cgpa": 0.0,
+                "feeAmount": 0.0,
+                "rollNo": 0,
+                "student": {
+                    "id": 406192326,
+                    "pinNo": 0,
+                    "parentAnnualIncome": 0.0,
+                    "age": 0,
+                    "workExperince": 0
+                },
+                "studentCurrentTerm": 0.0
+            },
+            "level": {
+                "id": 2000090,
+                "syllabusFreeze": false,
+                "startDate": "Aug 9, 2024, 12:00:00 AM",
+                "endDate": "Dec 25, 2024, 11:59:59 PM",
+                "resultApplicable": false,
+                "resultDeclared": false
+            },
+            "courseType": 0,
+            "feedBack": 0,
+            "forcedGrade": {
+                "id": 16908290,
+                "weightage": 0.0,
+                "hierarchyId": 0,
+                "fromPR": 0.0,
+                "toPR": 0.0,
+                "fromMR": 0,
+                "toMR": 0
+            },
+            "totalMark": 0.0,
+            "internalMark": 0.0,
+            "externalMark": 0.0,
+            "passAudit": false,
+            "otherStatus": 0,
+            "modifiedGroup": "campus"
+        },
+        [],
+        false
+    ]
+]

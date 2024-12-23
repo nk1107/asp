@@ -1,4 +1,3 @@
- // Ensure this is at the top of your file
 import Image from "next/image";
 import React from "react";
 import { auth } from "@/auth";
@@ -83,15 +82,10 @@ export default function AboutPage() {
   // const session = await auth();
   // if (!session) return <div>Not authenticated</div>;
   return (
-    <div className="flex flex-col  bg-gradient-to-b from-[#fef3c7] to-[#fcd34d] bg-opacity-90
+    <div className="flex flex-col bg-opacity-90
   bg-cover bg-center text-black"> 
-        
-      <Menu/>
       <AppleCardsCarouselDemo />
       <ParallaxScrollDemo />
     </div>
-
-      
-    
   );
 }

@@ -62,11 +62,12 @@ const ContactForm: React.FC = () => {
           toast("Email sent successfully")
           setFormData({ name: '', email: '', phone: '', message: '' });
         } else {
-          alert(result.message);
+          // alert(result.message);
+          toast("Failed to send email",result.message)
         }
       } catch (error) {
         console.error('Error:', error);
-        alert('Failed to send email');
+        alert('Failed to send email something went wrong');
       }
     }
   };

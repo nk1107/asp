@@ -13,7 +13,7 @@ export default async function Home() {
   return (
     <BackgroundBeamsWithCollision className="h-screen">
       {/* Menubar */}
-      <Menu />
+      
       <div
         className=" min-h-screen "
       >
