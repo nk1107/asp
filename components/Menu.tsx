@@ -58,7 +58,7 @@ export default async function Menu() {
         {/* Authentication */}
         <div>
           {session ? (
-            <SignOut className="text-lg" />
+            <SignOut className="text-lg hover:text-[#fde287]" />
           ) : (
             <SignIn className="text-lg hover:text-[#fde287]" />
           )}

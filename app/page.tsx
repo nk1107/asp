@@ -8,17 +8,19 @@ import Link from "next/link";
 
 export default async function Home() {
   const session = await auth();
-    // if (!session) return <div>Not authenticated</div>;
-  
-    return (
-      <BackgroundBeamsWithCollision className="h-screen">
-        <Menu />
-        <div
-          className=" min-h-screen "
-        >
-          {/* Menubar */}
+  // if (!session) return <div>Not authenticated</div>;
+
+  return (
+    <BackgroundBeamsWithCollision className="h-screen">
+      {/* Menubar */}
+      <Menu />
+      <div
+        className=" min-h-screen "
+      >
+
+        <div className="flex flex-col items-center justify-center mt-64">
           {/* Hero Section */}
-          <div className="flex flex-col items-center justify-center flex-grow pt-14 pb-16">
+          <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black animate-fade-in-up">
               Welcome to Aviral Solar Power
             </h1>
@@ -31,8 +33,11 @@ export default async function Home() {
               </button>
             </Link>
           </div>
-          {/* Welcome Message - Fixed at Bottom */}
-          {session ? (
+        </div>
+
+
+        {/* Welcome Message - Fixed at Bottom */}
+        {session ? (
           <p className="absolute bottom-0 left-0 right-0 text-gray-600 text-sm text-center py-4">
             Hi, {session.user?.name}! Let's make the world a better place. 🌏
           </p>
@@ -41,7 +46,7 @@ export default async function Home() {
             Welcome, guest! Sign in to start your journey. 🚀
           </p>
         )}
-        </div>
-      </BackgroundBeamsWithCollision>
-    );
+      </div>
+    </BackgroundBeamsWithCollision>
+  );
 }
