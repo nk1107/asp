@@ -73,11 +73,15 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="px-20 py-16 max-w-xl mx-auto mt-10 bg-black shadow-lg rounded-lg overflow-hidden">
-      <div className="text-3xl py-4 px-6 text-white text-center font-bold ">
+    <div className="px-20 py-16 max-w-xl mx-auto mt-10 bg-black  rounded-lg overflow-hidden hover:shadow-black hover:shadow-2xl transition-shadow duration-500 ease-in-out">
+      <div className="text-3xl py-4 px-6 text-white text-center font-bold">
         Send Us A Message!
+        <div className="mt-2 text-yellow-300 text-xs font-semibold border border-slate-400 rounded-lg p-2 w-64 mx-auto">
+          or contact @+91 9794742111
+        </div>
       </div>
-      <form className="py-4 px-6" onSubmit={handleSubmit}>
+  
+      <form className="py-4 px-6 h-1/2" onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-white font-bold mb-2" htmlFor="name">
             Name
@@ -92,7 +96,6 @@ const ContactForm: React.FC = () => {
           />
           {errors.name && <p className="text-red-500 text-xs italic">{errors.name}</p>}
         </div>
-
         <div className="mb-4">
           <label className="block text-white font-bold mb-2" htmlFor="email">
             Email
@@ -107,7 +110,6 @@ const ContactForm: React.FC = () => {
           />
           {errors.email && <p className="text-red-500 text-xs italic">{errors.email}</p>}
         </div>
-
         <div className="mb-4">
           <label className="block text-white font-bold mb-2" htmlFor="phone">
             Phone Number
@@ -122,7 +124,6 @@ const ContactForm: React.FC = () => {
           />
           {errors.phone && <p className="text-red-500 text-xs italic">{errors.phone}</p>}
         </div>
-
         <div className="mb-4">
           <label className="block text-white font-bold mb-2" htmlFor="message">
             Message
@@ -137,7 +138,6 @@ const ContactForm: React.FC = () => {
           ></textarea>
           {errors.message && <p className="text-red-500 text-xs italic">{errors.message}</p>}
         </div>
-
         <div className="flex items-center justify-center mb-4">
           <Button
             className="bg-white text-black py-2 px-4 rounded hover:bg-yellow-400 focus:outline-none focus:shadow-outline"
@@ -149,6 +149,7 @@ const ContactForm: React.FC = () => {
       </form>
     </div>
   );
+  
 };
 
 export default ContactForm;
