@@ -3,6 +3,7 @@ import React from "react";
 import { auth } from "@/auth";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import ParallaxScrollDemo from "@/components/projects";
+import Testimonials from "@/components/Testimonials"
 import { Menubar, MenubarMenu, MenubarTrigger } from "@radix-ui/react-menubar";
 import { SignOut } from "@/components/sign-out";
 import Link from "next/link";
@@ -85,7 +86,9 @@ export default function AboutPage() {
     <div className="flex flex-col bg-opacity-90
   bg-cover bg-center text-black"> 
       <AppleCardsCarouselDemo />
+      <Testimonials/>
       <ParallaxScrollDemo />
+      
     </div>
   );
 }

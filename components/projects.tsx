@@ -4,7 +4,7 @@ import { ParallaxScroll } from "@/components/ui/parallax-scroll";
 
 export default function ParallaxScrollDemo() {
   return(
-    
+       
       <ParallaxScroll images={images} />
   )
 }

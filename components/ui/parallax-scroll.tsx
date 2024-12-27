@@ -30,7 +30,7 @@ export const ParallaxScroll = ({
 
   return (
     <div
-      className={cn("h-[40rem] items-start overflow-y-auto w-full", className)}
+      className={cn("h-[40rem] items-start overflow-y-auto w-full mt-6", className)}
       ref={gridRef}
     >
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-black font-sans">
