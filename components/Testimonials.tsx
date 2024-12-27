@@ -4,7 +4,7 @@ export default function Testimonials() {
         <h2 className="max-w-7xl pl-4 ml-4 text-xl md:text-5xl font-bold text-black font-sans">
           Testimonials:
         </h2>
-        <div className="grid grid-cols-1 p-6 ml-4 h-80 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 p-6 ml-10 h-80 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
               videoSrc: "/video1.mp4",
