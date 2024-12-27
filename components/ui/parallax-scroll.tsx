@@ -33,9 +33,9 @@ export const ParallaxScroll = ({
       className={cn("h-[40rem] items-start overflow-y-auto w-full mt-6", className)}
       ref={gridRef}
     >
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-black font-sans">
-        Gallery:
-      </h2>
+      <h2 className="max-w-7xl pl-4 ml-4 sm:text-5xl md: text-5xl font-bold text-black font-sans">
+          Gallery:
+        </h2>
       <div
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start max-w-5xl mx-auto gap-10 py-40 px-10"
         ref={gridRef}

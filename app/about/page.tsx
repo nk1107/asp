@@ -70,9 +70,9 @@ function AppleCardsCarouselDemo() {
 
   return (
     <div className="w-full py-10 h-full ">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold  text-black font-sans">
-        Get to know ASP.
-      </h2>
+      <h2 className="max-w-7xl pl-4 ml-4 sm:text-5xl md: text-5xl font-bold text-black font-sans">
+          Get to know ASP.
+        </h2>
       <Carousel items={cards} />
     </div>
   );

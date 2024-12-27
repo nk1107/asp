@@ -1,20 +1,20 @@
 export default function Testimonials() {
     return (
       <div className="max-w-7xl px-4 py-8">
-        <h2 className="max-w-7xl pl-4 ml-4 text-xl md:text-5xl font-bold text-black font-sans">
+        <h2 className="max-w-7xl pl-4 ml-4 sm:text-5xl md: text-5xl font-bold text-black font-sans">
           Testimonials:
         </h2>
-        <div className="grid grid-cols-1 p-6 ml-64 h-80 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 p-6 lg:ml-56 lg:h-72 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
               videoSrc: "/video1.mp4",
-              title: "Dr Nitin Butani's Story",
-              description: "Dr Nitin Butani , Director",
+              title: "Dr Nitin Madnani's Story",
+              description: "Dr Nitin Madnani , MD at Rani Basant Diagnostics Prayagraj",
             },
             {
               videoSrc: "/video2.mp4",
               title: "Mr Om Prakash Singh's Story",
-              description: "Mr Om Prakash Singh ,High Court Allahabad.",
+              description: "Mr Om Prakash Singh , Senior Advocate at Allahabad High Court.",
             },
             {
               videoSrc: "/video3.mp4",
@@ -24,10 +24,10 @@ export default function Testimonials() {
           ].map((item, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-lg shadow-2xl shadow-black border-4 border-black"
+              className="group relative overflow-hidden rounded-3xl shadow-2xl shadow-black border-4 border-black"
             >
               <video
-                className="w-full h-auto"
+                className="w-full "
                 controls
                 src={item.videoSrc}
                 title={item.title}
